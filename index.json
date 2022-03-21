@@ -1374,13 +1374,13 @@
     },
     {
       "fullPath": "presets/4.3/other/dynamic_idle.txt",
-      "hash": "8b639e38cb9fb834c45494c8ed24009d449a557081c54e71f32da9c79e3f2504",
+      "hash": "0860d7dfdda1bc73a17f40beddfeb0196e7733bd240b8fe2cf028fb1196c3807",
       "title": "Enable Dynamic Idle 4.3",
       "firmware_version": [
         "4.3"
       ],
       "category": "OTHER",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
         "defaults",
         "reset",
