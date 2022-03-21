@@ -1,11 +1,10 @@
 #$ TITLE: Default Build 4.3 settings
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: OTHER
-#$ STATUS: OFFICIAL
-#$ KEYWORDS: defaults, reset
+#$ CATEGORY: BUILDS
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: defaults, reset, builds, misc, vtx, modes, osd, tune, filters, rc_link, rates
 #$ AUTHOR: Grady
 #$ DESCRIPTION: Sets new build to personal 4.3 defaults
-
 
 #MISC
 feature -RX_PARALLEL_PWM
@@ -197,3 +196,90 @@ set osd_camera_frame_height = 11
 set osd_stat_avg_cell_value = OFF
 set osd_framerate_hz = 12
 set osd_menu_background = TRANSPARENT
+
+
+#$ OPTION BEGIN (UNCHECKED): Ghost Long Range
+    #$ INCLUDE: presets/4.3/rc_link/ghost/long_range.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Ghost Normal
+    #$ INCLUDE: presets/4.3/rc_link/ghost/normal.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Ghost Race250
+    #$ INCLUDE: presets/4.3/rc_link/ghost/race250.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Ghost Race500
+    #$ INCLUDE: presets/4.3/rc_link/ghost/race500.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Ghost Solid250
+    #$ INCLUDE: presets/4.3/rc_link/ghost/solid250.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Crossfire 150
+    #$ INCLUDE: presets/4.3/rc_link/tbs/crossfire_150hz.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Tracer 250
+    #$ INCLUDE: presets/4.3/rc_link/tbs/tracer_250hz.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): DJI
+    #$ INCLUDE: presets/4.3/rc_link/DJI_SBUS_Fast.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Tramp Nano
+    #$ INCLUDE: presets/4.3/vtx/tramp_nano_and_HV.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): TBS Unify Pro32 Nano
+    #$ INCLUDE: presets/4.3/vtx/Unify_Pro32_Nano_SA2_1.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): SpeedyBee TX800
+    #$ INCLUDE: presets/4.3/vtx/speedybee_tx800.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): RPM Filtering Clean
+    #$ INCLUDE: presets/4.3/filters/default_rpm_clean.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): RPM Filtering Normal
+    #$ INCLUDE: presets/4.3/filters/default_rpm_normal.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): RPM Filtering Noisy
+    #$ INCLUDE: presets/4.3/filters/default_rpm_noisy.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 4.3 Default Tune
+    #$ INCLUDE: presets/4.3/tune/defaults.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Reset All Tune
+    #$ INCLUDE: presets/4.3/tune/reset_all.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 5 inch
+    #$ INCLUDE: presets/4.3/tune/UAV_tech_5in.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Whoop
+    #$ INCLUDE: presets/4.3/tune/UAV_tech_Whoop.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): 3-4 inch
+    #$ INCLUDE: presets/4.3/tune/UAV_tech_Toothpic.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Enable Dynamic Idle
+    #$ INCLUDE: presets/4.3/other/dynamic_idle.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): ACTUAL Rates
+    #$ INCLUDE: presets/4.3/rates/Actual_Rates.txt
+#$ OPTION END
+
+

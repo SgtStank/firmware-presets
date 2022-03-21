@@ -270,7 +270,7 @@
       "normal",
       "OP400",
       "OpenVTx",
-      "OSD",
+      "osd",
       "OVX300",
       "OVX303",
       "partial",
@@ -339,16 +339,25 @@
   "presets": [
     {
       "fullPath": "presets/4.3/builds/build_defaults.txt",
-      "hash": "ecc3fd9fb89b4997a14303dd4701057a04811b880cafdaca7cefc4c9691436f3",
+      "hash": "340d05179a62b094c3af5031efab6cd274e0fbf4d1f3139b3b0132923a40179c",
       "title": "Default Build 4.3 settings",
       "firmware_version": [
         "4.3"
       ],
-      "category": "OTHER",
-      "status": "OFFICIAL",
+      "category": "BUILDS",
+      "status": "COMMUNITY",
       "keywords": [
         "defaults",
-        "reset"
+        "reset",
+        "builds",
+        "misc",
+        "vtx",
+        "modes",
+        "osd",
+        "tune",
+        "filters",
+        "rc_link",
+        "rates"
       ],
       "author": "Grady",
       "priority": 0
