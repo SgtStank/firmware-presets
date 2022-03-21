@@ -339,7 +339,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/builds/build_defaults.txt",
-      "hash": "37acc338933995427107e80c360cd5387dc898004a1048effa95f9d85dede9ee",
+      "hash": "9d5dcf1a540ac892922bb426512b98283457b38584d2ae64fe7fbc5489ef6806",
       "title": "Default Build 4.3 settings",
       "firmware_version": [
         "4.3"

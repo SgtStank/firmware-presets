@@ -4,7 +4,7 @@
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: defaults, reset, builds, misc, vtx, modes, osd, tune, filters, rc_link, rates
 #$ AUTHOR: Grady
-#$ DESCRIPTION: Sets new build to personal 4.3 defaults
+#$ DESCRIPTION: Base configurations for new builds. Customize to build using optional checkboxes.
 
 #MISC
 feature -RX_PARALLEL_PWM
