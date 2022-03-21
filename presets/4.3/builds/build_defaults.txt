@@ -1,11 +1,68 @@
-#$ TITLE: Default 4.3 OSD settings
+#$ TITLE: Default Build 4.3 settings
 #$ FIRMWARE_VERSION: 4.3
-#$ CATEGORY: OSD
+#$ CATEGORY: OTHER
 #$ STATUS: OFFICIAL
-#$ KEYWORDS: defaults, reset, OSD
-#$ AUTHOR: Betaflight
-#$ DESCRIPTION: Resets the OSD values back to Betaflight 4.3 defaults
+#$ KEYWORDS: defaults, reset
+#$ AUTHOR: Grady
+#$ DESCRIPTION: Sets new build to personal 4.3 defaults
 
+
+#MISC
+feature -RX_PARALLEL_PWM
+feature TELEMETRY
+beeper -GYRO_CALIBRATED
+beeper -ARMING_GPS_FIX
+beeper -GPS_STATUS
+beeper -ACC_CALIBRATION
+beeper -ACC_CALIBRATION_FAIL
+beeper -READY_BEEP
+beeper -DISARM_REPEAT
+beeper -ON_USB
+beeper -BLACKBOX_ERASE
+beeper -CAM_CONNECTION_OPEN
+beeper -CAM_CONNECTION_CLOSE
+beeper -RC_SMOOTHING_INIT_FAIL
+beacon RX_LOST
+beacon RX_SET
+set fpv_mix_degrees = 20
+set blackbox_sample_rate = 1/2
+set dshot_bidir = ON
+set motor_pwm_protocol = DSHOT600
+set beeper_dshot_beacon_tone = 5
+set yaw_motors_reversed = ON
+set small_angle = 180
+
+#vtx
+set vtx_band = 5
+set vtx_channel = 1
+set vtx_power = 1
+set vtx_low_power_disarm = OFF
+set vtx_freq = 5658
+set vtx_pit_mode_freq = 0
+set vtx_halfduplex = ON
+set vcd_video_system = NTSC
+set vcd_h_offset = 0
+set vcd_v_offset = 0
+set max7456_clock = NOMINAL
+set max7456_spi_bus = 2
+set max7456_preinit_opu = OFF
+set displayport_msp_col_adjust = 0
+set displayport_msp_row_adjust = 0
+set displayport_msp_serial = -1
+set displayport_msp_attrs = 0,0,0,0
+set displayport_msp_use_device_blink = OFF
+set displayport_max7456_col_adjust = 0
+set displayport_max7456_row_adjust = 0
+set displayport_max7456_inv = OFF
+set displayport_max7456_blk = 0
+set displayport_max7456_wht = 2
+
+#Modes
+aux 0 0 0 1900 2100 0 0
+aux 1 1 1 1900 2100 0 0
+aux 2 15 3 1950 2050 0 0
+
+#OSD
 set osd_units = IMPERIAL
 set osd_warn_arming_disable = ON
 set osd_warn_batt_not_full = ON
