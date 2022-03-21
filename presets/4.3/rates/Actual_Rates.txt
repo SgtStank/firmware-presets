@@ -1,16 +1,12 @@
-#$ TITLE: UAV Tech Rates (w/ Cinematic/Whoop Options)
+#$ TITLE: Personal Actual Rates
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: RATES
 #$ STATUS: COMMUNITY
 #$ KEYWORDS: whoop, freetyle, cinematic, HD
-#$ AUTHOR: UAV Tech (Mark Spatz)
+#$ AUTHOR: Grady via UAV Tech (Mark Spatz)
 
 #$ PARSER: MARKED
 
-#$ DESCRIPTION: I am a Betaflight contributor, Youtube content creator, and professional tuner [www.theuavtech.com](https://www.theuavtech.com)
-#$ DESCRIPTION: 
-#$ DESCRIPTION: <img src="https://i0.wp.com/theuavtech.com/wp-content/uploads/2020/10/icon-150x150-1.png" width="125px" style="margin-left: auto; margin-right: auto; display: block;"/>
-#$ DESCRIPTION: 
 #$ DESCRIPTION: Information:
 #$ DESCRIPTION: -----------
 #$ DESCRIPTION: FREESTYLE: 1000 degrees/sec for roll and pitch, 700 - for yaw. Smooth at center stick but still snappy at the edges.
@@ -20,7 +16,6 @@
 #$ DESCRIPTION: - CINEMATIC/HD: Same max rates, but adds more smoothing (Expo.) at center stick for smooth transitions when you pass over stick centers (improved "skating" HD footage).
 #$ DESCRIPTION: - WHOOP: For whoop racing in Angle/Horizon Modes.  Adjust Yaw rate and also Angle/Horizon Strenght, Level Limit and Transition.  It along with adds 0.5 Throttle Expo at the 45% throttle.
 #$ DESCRIPTION: 
-#$ DISCUSSION: https://github.com/betaflight/firmware-presets/pull/216
 #$ INCLUDE: presets/4.3/rates/defaults.txt
 
 set rates_type = ACTUAL

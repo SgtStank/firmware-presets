@@ -278,4 +278,8 @@ set osd_menu_background = TRANSPARENT
     #$ INCLUDE: presets/4.3/other/dynamic_idle.txt
 #$ OPTION END
 
+#$ OPTION BEGIN (UNCHECKED): ACTUAL Rates
+    #$ INCLUDE: presets/4.3/rates/Actual_Rates.txt
+#$ OPTION END
+
 

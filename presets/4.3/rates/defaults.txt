@@ -3,11 +3,8 @@
 #$ CATEGORY: RATES
 #$ STATUS: OFFICIAL
 #$ KEYWORDS: defaults, rates, actual
-#$ AUTHOR: Betaflight
-#$ DESCRIPTION: Default Betaflight rates - ACTUAL
-#$ DESCRIPTION: Will be applied for the currently selected rate profile
-#$ DESCRIPTION: TPA values are not included
-#$ DESCRIPTION: Throttle limit and curve are not included
+#$ AUTHOR: Grady
+#$ DESCRIPTION: Default Grady rates - ACTUAL
 #$ PRIORITY: 0
 
 set rates_type = ACTUAL
@@ -18,9 +15,9 @@ set yaw_rc_rate = 7
 set roll_expo = 0
 set pitch_expo = 0
 set yaw_expo = 0
-set roll_srate = 67
-set pitch_srate = 67
-set yaw_srate = 67
+set roll_srate = 55
+set pitch_srate = 55
+set yaw_srate = 55
 set roll_rate_limit = 1998
 set pitch_rate_limit = 1998
 set yaw_rate_limit = 1998
