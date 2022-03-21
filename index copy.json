@@ -28,7 +28,7 @@
       "RC_LINK": 10000000000,
       "BNF": 0,
       "OTHER": 0,
-      "BUILDS": 100000000000000
+      "BUILDS": 100000000000
     },
     "MetadataTypes": {
       "STRING": "STRING",
@@ -135,7 +135,6 @@
   },
   "uniqueValues": {
     "firmware_version": [
-      "4.2",
       "4.3"
     ],
     "category": [
@@ -147,7 +146,8 @@
       "RATES",
       "RC_LINK",
       "TUNE",
-      "VTX"
+      "VTX",
+      "BUILDS"
     ],
     "author": [
       "Betaflight",
