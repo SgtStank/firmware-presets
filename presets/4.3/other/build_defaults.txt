@@ -1,8 +1,8 @@
 #$ TITLE: Default Build 4.3 settings
 #$ FIRMWARE_VERSION: 4.3
 #$ CATEGORY: OTHER
-#$ STATUS: OFFICIAL
-#$ KEYWORDS: defaults, reset
+#$ STATUS: COMMUNITY
+#$ KEYWORDS: defaults, reset, misc, vtx, modes, osd, tune, filters, rc_link, rates
 #$ AUTHOR: Grady
 #$ DESCRIPTION: Sets new build to personal 4.3 defaults
 

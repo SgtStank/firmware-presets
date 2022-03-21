@@ -255,6 +255,7 @@
       "logging",
       "Long Range",
       "mamba",
+      "misc",
       "mode",
       "modes",
       "names",
@@ -1349,16 +1350,24 @@
     },
     {
       "fullPath": "presets/4.3/other/build_defaults.txt",
-      "hash": "9fc9c24a9c3dd169440ca326c09a00d1f3d0cc4c68307db38de2d22fb84cf34d",
+      "hash": "41051787ad92becc8466133543704be38cfdb7ab40985e5ffe2d31b3eb95af2e",
       "title": "Default Build 4.3 settings",
       "firmware_version": [
         "4.3"
       ],
       "category": "OTHER",
-      "status": "OFFICIAL",
+      "status": "COMMUNITY",
       "keywords": [
         "defaults",
-        "reset"
+        "reset",
+        "misc",
+        "vtx",
+        "modes",
+        "osd",
+        "tune",
+        "filters",
+        "rc_link",
+        "rates"
       ],
       "author": "Grady",
       "priority": 0
