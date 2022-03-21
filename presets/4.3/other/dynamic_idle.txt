@@ -1,0 +1,11 @@
+#$ TITLE:  Enable Dynamic Idle 4.3
+#$ FIRMWARE_VERSION: 4.3
+#$ CATEGORY: OTHER
+#$ STATUS: OFFICIAL
+#$ KEYWORDS: defaults, reset, tune, pid, basic, default
+#$ AUTHOR: Grady
+#$ DESCRIPTION: Enables Dynamic Idle
+#$ PRIORITY: 0
+
+set dyn_idle_min_rpm = 35
+set transient_throttle_limit = 0
