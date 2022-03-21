@@ -6,6 +6,26 @@
 #$ AUTHOR: Grady
 #$ DESCRIPTION: Sets new build to personal 4.3 defaults
 
+#$ OPTION BEGIN (UNCHECKED): Ghost Normal
+    #$ INCLUDE: presets/4.3/rc_link/generic/50hz_race.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Ghost 250
+    #$ INCLUDE: presets/4.3/rc_link/generic/50hz_freestyle.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Crossfire 150
+    #$ INCLUDE: presets/4.3/rc_link/generic/50hz_hd_freestyle.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): Tracer
+    #$ INCLUDE: presets/4.3/rc_link/generic/50hz_cinematic.txt
+#$ OPTION END
+
+#$ OPTION BEGIN (UNCHECKED): DJI
+    #$ INCLUDE: presets/4.3/rc_link/generic/50hz_ultra_cinematic.txt
+#$ OPTION END
+
 
 #MISC
 feature -RX_PARALLEL_PWM
