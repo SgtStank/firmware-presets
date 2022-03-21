@@ -42,7 +42,7 @@ const PresetCategoriesPriorities = {
     RC_LINK:        10**10,
     BNF:            0,
     OTHER:          0,
-    BUILDS:	   10**14
+    BUILDS:	   0,
 }
 
 const OptionsDirectives = {

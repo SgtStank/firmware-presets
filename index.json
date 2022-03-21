@@ -28,7 +28,7 @@
       "RC_LINK": 10000000000,
       "BNF": 0,
       "OTHER": 0,
-      "BUILDS": 100000000000000
+      "BUILDS": 0
     },
     "MetadataTypes": {
       "STRING": "STRING",
@@ -139,6 +139,7 @@
       "4.3"
     ],
     "category": [
+      "BUILDS",
       "FILTERS",
       "LEDS",
       "MODES",
@@ -202,6 +203,7 @@
       "betaflight",
       "blackbox",
       "BMI270",
+      "builds",
       "camera",
       "camera_control",
       "cinelifter",
@@ -1352,16 +1354,17 @@
     },
     {
       "fullPath": "presets/4.3/other/build_defaults.txt",
-      "hash": "41051787ad92becc8466133543704be38cfdb7ab40985e5ffe2d31b3eb95af2e",
+      "hash": "340d05179a62b094c3af5031efab6cd274e0fbf4d1f3139b3b0132923a40179c",
       "title": "Default Build 4.3 settings",
       "firmware_version": [
         "4.3"
       ],
-      "category": "OTHER",
+      "category": "BUILDS",
       "status": "COMMUNITY",
       "keywords": [
         "defaults",
         "reset",
+        "builds",
         "misc",
         "vtx",
         "modes",
