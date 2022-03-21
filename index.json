@@ -1435,6 +1435,22 @@
       "priority": 0
     },
     {
+      "fullPath": "presets/4.3/other/build_defaults.txt",
+      "hash": "ecc3fd9fb89b4997a14303dd4701057a04811b880cafdaca7cefc4c9691436f3",
+      "title": "Default Build 4.3 settings",
+      "firmware_version": [
+        "4.3"
+      ],
+      "category": "OTHER",
+      "status": "OFFICIAL",
+      "keywords": [
+        "defaults",
+        "reset"
+      ],
+      "author": "Grady",
+      "priority": 0
+    },
+    {
       "fullPath": "presets/4.3/other/reset_blackbox.txt",
       "hash": "30dc088a9a24dbbbea774d4d23eb29be85da9f4a78844e23e8b4ae7ff49bd090",
       "title": "Reset 4.3 Blackbox settings",
