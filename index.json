@@ -339,7 +339,7 @@
   "presets": [
     {
       "fullPath": "presets/4.3/builds/build_defaults.txt",
-      "hash": "340d05179a62b094c3af5031efab6cd274e0fbf4d1f3139b3b0132923a40179c",
+      "hash": "37acc338933995427107e80c360cd5387dc898004a1048effa95f9d85dede9ee",
       "title": "Default Build 4.3 settings",
       "firmware_version": [
         "4.3"
@@ -1363,7 +1363,7 @@
     },
     {
       "fullPath": "presets/4.3/other/build_defaults.txt",
-      "hash": "340d05179a62b094c3af5031efab6cd274e0fbf4d1f3139b3b0132923a40179c",
+      "hash": "d0c407e7ee79f1102ad6961747c294c0783c2f766f7c174d08366fdc630107e3",
       "title": "Default Build 4.3 settings",
       "firmware_version": [
         "4.3"
@@ -1388,7 +1388,7 @@
     },
     {
       "fullPath": "presets/4.3/other/dynamic_idle.txt",
-      "hash": "0860d7dfdda1bc73a17f40beddfeb0196e7733bd240b8fe2cf028fb1196c3807",
+      "hash": "645a2ce5651aa20a3f5f6959ff2449690c611a06f7e8dbd9f6f03b9c7884e7bb",
       "title": "Enable Dynamic Idle 4.3",
       "firmware_version": [
         "4.3"

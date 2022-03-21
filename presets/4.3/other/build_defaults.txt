@@ -31,6 +31,16 @@ set beeper_dshot_beacon_tone = 5
 set yaw_motors_reversed = ON
 set small_angle = 180
 
+#profile 0
+set acro_trainer_angle_limit = 30
+set abs_control_gain = 3
+set use_integrated_yaw = ON
+set thrust_linear = 25
+set feedforward_smooth_factor = 30
+set feedforward_jitter_factor = 9
+set dyn_idle_min_rpm = 30
+set simplified_pids_mode = RP
+
 #vtx
 set vtx_band = 5
 set vtx_channel = 1

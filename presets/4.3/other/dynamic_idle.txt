@@ -7,5 +7,5 @@
 #$ DESCRIPTION: Enables Dynamic Idle
 #$ PRIORITY: 0
 
-set dyn_idle_min_rpm = 35
+set dyn_idle_min_rpm = 30
 set transient_throttle_limit = 0
